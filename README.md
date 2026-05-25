@@ -18,10 +18,15 @@
 - Удаление записи с подтверждением
 - Справочник видов работ — выбор из предзаполненного списка в БД
 
+## Требования
+
+- [Docker CE](https://docs.docker.com/engine/install/) 20.10+ (не Podman)
+- Docker Compose v2 (входит в Docker CE)
+
 ## Запуск
 
 ```bash
-git clone <url>
+git clone https://github.com/AgataNovak/Malevich_Journal.git
 cd Malevich_Journal
 docker compose up --build
 ```
