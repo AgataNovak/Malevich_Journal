@@ -22,7 +22,7 @@
 
 ```bash
 git clone <url>
-cd Malevich
+cd Malevich_Journal
 docker compose up --build
 ```
 
